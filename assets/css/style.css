@@ -1,120 +1,31 @@
 body {
-  font-family: 'Roboto Slab', serif;
-
+	font-family: 'Great Vibes', cursive;
+	font-family: 'Open Sans', sans-serif;
+}
+col-md-6 {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-h1 {
-  font-weight: 800;
-  font-size: 2.75em;
-  /*margin-top: 3.75em;*/
-
-}
-
-h2 {
-  font-weight: 700;
-  font-size: 2.5em;
-
-}
-
-span {
-  font-size: 30px;
-  font-weight: 500;
-  color: blue;
-}
-
-.hero-section {
+.centrador{
   text-align: center;
-  background-image: url('../img/yosoy.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #000333;
-  text-shadow: 0.125em 0.25em 0.125em #707070;
-  padding: 15.25rem 3.125rem;
-}
-
-.subtitulo, h4, h5 {
-  font-weight: 400;
-}
-
-.margenimgtop {
-	margin-top: 100px;
-	width: 75%;
-}
 
 
-
-header {
-  margin-top: 100px;
 }
 
-@media (max-width: 575px) {
-.idname {
-  font-size: 5px;
-  color: #ffffff;
-  text-align: center;
-  margin-top: -80px;
-  margin-bottom: 70px;
-}
-.content h2:before {
-content: '#José Rubén Cerrada0';
-color:#fb0f04;
-}
+.imagen{
+    width: 50%;
 }
 
-@media (min-width: 576px) {
-.idname {
-  font-size: 5px;
-  color: #ffffff;
-  text-align: center;
-  margin-top: -230px;
-  margin-bottom: 100px;
-}
-.content h2:before {
-content: '#Yo Soy José Rubén Cerrada 1';
-color:#fb0f04;
-}
+.carousel-indicators {
+  top: 50px;
 }
 
-@media (min-width: 768px) {
-.idname {
-  font-size: 10px;
-  color: #ffffff;
-  text-align: center;
-  margin-top: -220px;
-  margin-bottom: 200px;
-}
-.content h2:before {
-content: '#José Rubén Cerrada2';
-color:#0438fb;
-}
-}
-
-@media (min-wi
-  color: #ffffff;
-  text-align: center;
-  margin-top: -400px;
-  margin-bottom: 100px;
-}
-.content h2:before {
-content: '#José Rubén Cerrada3';
-color:#ffffff;
-}
-}
-
-@media (min-width: 1200px) {
-.idname {
-    font-size: 40px;
-    color: #ffffff;
-    text-align: center;
-    margin-top: -400px;
-    margin-bottom: 200px;
-}
-.content h2:before {
-content: '#José Rubén Cerrada4';
-color:#2fde69;
-}
-}
-
-.colorfondo {
-  background-color: red;
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  align-content: center;
 }

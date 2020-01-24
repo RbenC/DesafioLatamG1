@@ -6,7 +6,7 @@ $(function(){
 
       var gato = this.hash;
 
-      $("html, body").animate({
+      $('html, body').animate({
         scrollTop: $(gato).offset().top
       }, 800, function(){
         window.location.hash = gato;
@@ -15,5 +15,4 @@ $(function(){
   });
 
   $('[data-toggle="popover"]').popover();
-
 });

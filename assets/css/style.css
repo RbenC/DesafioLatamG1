@@ -9,10 +9,11 @@ col-md-6 {
   margin-right: auto;
 }
 
-.centrador{
-  text-align: center;
-
-
+h1 {
+	text-align: center;
+	color: #ffffff;
+	font-weight:bold;
+	font-family: 'Great Vibes', cursive;
 }
 
 .imagen{
@@ -27,5 +28,5 @@ col-md-6 {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  align-content: center;
+  align-content: left;
 }

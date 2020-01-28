@@ -30,3 +30,9 @@ h1 {
   border-radius: 50%;
   align-content: left;
 }
+
+@media screen and (max-width: 600px) {
+  .texto1 {
+    font-size: 5vmax;
+  }
+}
